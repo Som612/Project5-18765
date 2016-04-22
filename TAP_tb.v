@@ -1,4 +1,4 @@
-module TAP_tb();
+module TAP_tb;
     reg TCK_tb, TRST_tb, TMS_tb;
     wire clockdr_tb, shiftdr_tb, updatedr_tb, clockir_tb,shiftir_tb,updateir_tb,select_tb, bs_entb;
 
@@ -13,9 +13,8 @@ module TAP_tb();
                      .select(select_tb), 
                      .bs_en(bs_entb));
 
-    intial
-    begin:CLOCK_GEN
-    $shm_open('waves.shm') $shm_probe("AS");
+    initial begin
+    //$shm_open('waves.shm') $shm_probe("AS");
     TCK_tb = 0;
     forever
         begin
@@ -24,13 +23,13 @@ module TAP_tb();
      end
 
     initial begin
-	TRST = 0;
+	TRST_tb = 0;
 	#5;
-	TRST = 1;
+	TRST_tb = 1;
 	#10;
-        TMS = 1;
+        TMS_tb = 1;
 	#10;
-	TMS = 0;
+	TMS_tb = 0;
     end	
 endmodule
 
