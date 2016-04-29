@@ -1,7 +1,4 @@
 //Large wrapper for Project 5
-//Extra inputs for TAP: 4
-//Extra inputs for instructions: 4
-//Extra outputs for testing: 0,?
 
 module DFT_full(data_in,data_out,clk,reset);
 
@@ -11,6 +8,20 @@ input [44:0] data_in;//Inputs for the tap controller and circuit
 output [38:0] data_out;//Response
 
 //Wires
+wire clk,reset;
+wire [44:0] data_in;
+wire [38:0] data_out;
+
+//Internal Variables
+
+//Instatiate Modules
+Boundary boundary(.Din(), .TDI(), .ShiftBR(), .UpdateBR(), .ClockBR(clk), .ModeCont(), .TDO(data_out), .Dout(), .Reset(reset));
+TAPcomplete tap(.tdi(data_in),.tdo(),.tms(data_in[0]),.tck(clk),.trst(reset));
+IR ir(.datain(),.shift(),.update(),.dataout(),.decode());
+lfsr bist(.clk(clk),.rnd(),.reset());
+mux41 drmux(.select(),.options(),.choice());
+scanff scan(.CK(clk), .SD(), .SI(), .SE(), .Q());
+Bypass bypass(.Din(), .TDI(), .ShiftBY(), .ClockBY(), .Reset(reset), .TDO());
 
 //Code Starts Here
 
