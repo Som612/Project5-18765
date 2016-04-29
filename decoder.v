@@ -11,5 +11,5 @@ module decoder_2to4(Y3, Y2, Y1, Y0, A, B, en);
 	//Y0-Internal Scan
 	//Y1-Boundary Scan
 	//Y2-BIST
-	//Y3-Nothing
+	//Y3-Bypass
 endmodule
