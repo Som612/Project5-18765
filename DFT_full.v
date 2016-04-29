@@ -16,4 +16,4 @@ output [38:0] data_out;//Response
 
 endmodule//End of DFT Module
 
-//4 to 1 MUX
+//Add in boundary scan inputs or outputs
