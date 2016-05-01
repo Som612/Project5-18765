@@ -1,0 +1,138 @@
+
+INFO (TDA-005): Command Line Invocation: 
+            build_model stepid=pd__build_model_043016211826-509074000 workdir=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/ designsource=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/s9234_comb.v  [end TDA_005]
+
+***********************************************************************
+Encounter(R) Test and Diagnostics 15.11 Jun 25, 2015 (linux26_64 ET151)
+ 
+Licensed Materials - Property of Cadence Design Systems, Inc. 
+ 
+Copyright (C) 2002-2015 Cadence Design Systems Inc. All Rights Reserved. 
+Cadence and the Cadence logo are registered trademarks. All others are 
+properties of their respective holders. 
+ 
+Copyright (C) 1994-2002 IBM Corporation. All rights reserved. 
+  IBM is a Trademark of International Business Machines Corporation. 
+Copyright (C) 2001-2003 The Trustees of Indiana University. All rights reserved. 
+Copyright (C) 1998-2001 University of Notre Dame. All rights reserved. 
+Copyright (C) 1994-1998 The Ohio State University. All rights reserved. 
+Perl Copyright 1987-2002, Larry Wall 
+
+
+***********************************************************************
+
+INFO (TDA-007): Job Information:
+            Date Started: Saturday Apr 30 21:18:26 2016  EDT
+            Host machine is helios.andrew.local.cmu.edu, x86_64 running Linux 3.10.0-327.13.1.el7.x86_64.
+            This job is process number 11636.
+[end TDA_007]
+
+INFO (TDA-009): Keywords/Values information.
+            (keywords marked with '*' have program generated values,
+             keywords marked with '+' were specified to default.)
+
+            WORKDIR=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/
+
+            logfile=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//testresults/logs/log_build_model_043016211826-509074000
+            stepid=pd__build_model
+            DESIGNSOURCE=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/s9234_comb.v
+[end TDA_009]
+INFO (TEI-195): Build Model - Controller starting: [end TEI_195] 
+
+
+Search Order  1:  "/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/s9234_comb.v"
+
+
+
+Reading Verilog data from /afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/s9234_comb.v
+
+NC Verilog Parser complete - 1 modules, 5597 gates, 0 user defined primitives.
+
+INFO (TEI-003): The 'cell s9234_comb' was selected as the top cell.   [end TEI_003] 
+
+
+INFO (TEI-196): Build Model - Hierarchical Model Build starting: [end TEI_196] 
+
+
+
+Number of blocks in the hierarchical model is: 5598.
+
+
+
+INFO (TEI-197): Build Model - Hierarchical Model Build completed. [end TEI_197] 
+
+
+
+INFO (TEI-198): Build Model - Flat Model Build starting: [end TEI_198] 
+
+ defaultTIE = X
+ defaultDFN = T
+
+
+Circuit Summary
+---------------
+
+Hierarchical Model:                  Flattened Model:
+     5598  Blocks                          6094  Blocks
+    14065  Pins                            6094  Nodes
+     5844  Nets
+
+Primary Inputs:                      Primary Outputs:
+      247  Input Only                       250  Output Only
+        0  Input/Output                       0  Input/Output
+      247  Total Inputs                     250  Total Outputs
+
+Tied Nets:                           Dotted Nets:
+        0  Tied to 0                          0  Two-State
+        0  Tied to 1                          0  Three-State
+        0  Tied to X                          0  Total Dotted Nets
+        0  Total Tied Nets
+
+Selected Primitive Functions:
+        0  Clock Chopper (CHOP) primitives 
+        0  RAMs
+        0  ROMs
+        0  TSDs
+        0  Resistors
+        0  Transistors
+        0  Latches
+
+        0  Flip-Flops
+
+
+
+INFO (TEI-199): Build Model - Flat Model Build completed.  [end TEI_199] 
+
+
+INFO (TDA-001): Maximum Memory used during the run and Cumulative Time in hours:minutes:seconds:
+
+                  Total Memory =           86,836,048  bytes
+
+                      CPU Time =    0:00:00.13
+                  Elapsed Time =    0:00:00.85                    [end TDA_001]
+
+
+
+INFO (TEI-200): Build Model - Controller completed. [end TEI_200] 
+
+
+
+
+*******************************************************************************
+*                      Message Summary                                        *
+*******************************************************************************
+ Count  Number             First Instance of Message Text
+------- ------             ------------------------------
+
+  INFO Messages...
+      1 INFO (TEI-003): The 'cell s9234_comb' was selected as the top cell.    
+      1 INFO (TEI-195): Build Model - Controller starting:  
+      1 INFO (TEI-196): Build Model - Hierarchical Model Build starting:  
+      1 INFO (TEI-197): Build Model - Hierarchical Model Build completed.  
+      1 INFO (TEI-198): Build Model - Flat Model Build starting:  
+      1 INFO (TEI-199): Build Model - Flat Model Build completed.   
+      1 INFO (TEI-200): Build Model - Controller completed.  
+
+ For a detailed explanation of a message and a suggested user response execute 'msgHelp <message id>'.  For example: msgHelp TDA-009
+
+*******************************************************************************

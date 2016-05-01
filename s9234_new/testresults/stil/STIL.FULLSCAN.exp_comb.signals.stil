@@ -1,0 +1,627 @@
+STIL 1.0; 
+
+//***************************************************************************//
+//                             STIL SIGNALS FILE                             //
+//  Encounter(R) Test and Diagnostics 15.11 Jun 25, 2015 (linux26_64 ET151)  //
+//***************************************************************************//
+//                                                                           //
+//  FILE CREATED..............April 30, 2016 at 21:23:03                     //
+//                                                                           //
+//  PROJECT NAME..............project5                                       //
+//                                                                           //
+//  TESTMODE..................FULLSCAN                                       //
+//                                                                           //
+//  INEXPERIMENT..............exp_comb                                       //
+//                                                                           //
+//  TDR.......................dummy.tdr                                      //
+//                                                                           //
+//  TEST PERIOD...............80.000   TEST TIME UNITS...........ns          //
+//  TEST PULSE WIDTH..........8.000                                          //
+//  TEST STROBE OFFSET........72.000   TEST STROBE TYPE..........edge        //
+//  TEST BIDI OFFSET..........0.000                                          //
+//  TEST PI OFFSET............0.000    X VALUE...................Z           //
+//                                                                           //
+//                                     SCAN OVERLAP..............yes         //
+//  SCAN PERIOD...............80.000   SCAN TIME UNITS...........ns          //
+//  SCAN PULSE WIDTH..........8.000                                          //
+//  SCAN STROBE OFFSET........0.000    SCAN STROBE TYPE..........edge        //
+//  SCAN BIDI OFFSET..........0.000                                          //
+//  SCAN PI OFFSET............0.000    X VALUE...................Z           //
+//                                                                           //
+//                                                                           //
+//   Individually set PIs                                                    //
+//  Active TESTMODEs TM = 1 ..FULLSCAN                                       //
+//                                                                           //
+//***************************************************************************//
+
+//***************************************************************************//
+//                              DEFINE SIGNALS                               //
+//***************************************************************************//
+
+  Signals { 
+    "g1" In;      // pinName = g1; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g10" In;      // pinName = g10; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g102" In;      // pinName = g102; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g107" In;      // pinName = g107; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g11" In;      // pinName = g11; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g111" In;      // pinName = g111; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g114" In;      // pinName = g114; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g117" In;      // pinName = g117; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g118" In;      // pinName = g118; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g119" In;      // pinName = g119; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g122" In;      // pinName = g122; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g123" In;      // pinName = g123; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g127" In;      // pinName = g127; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g128" In;      // pinName = g128; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g131" In;      // pinName = g131; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g135" In;      // pinName = g135; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g139" In;      // pinName = g139; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g14" In;      // pinName = g14; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g143" In;      // pinName = g143; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g148" In;      // pinName = g148; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g15" In;      // pinName = g15; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g152" In;      // pinName = g152; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g157" In;      // pinName = g157; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g161" In;      // pinName = g161; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g166" In;      // pinName = g166; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g170" In;      // pinName = g170; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g175" In;      // pinName = g175; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g179" In;      // pinName = g179; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g18" In;      // pinName = g18; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g184" In;      // pinName = g184; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g188" In;      // pinName = g188; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g19" In;      // pinName = g19; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g193" In;      // pinName = g193; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g197" In;      // pinName = g197; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g2" In;      // pinName = g2; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g204" In;      // pinName = g204; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g205" In;      // pinName = g205; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g206" In;      // pinName = g206; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g207" In;      // pinName = g207; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g208" In;      // pinName = g208; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g209" In;      // pinName = g209; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g210" In;      // pinName = g210; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g211" In;      // pinName = g211; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g212" In;      // pinName = g212; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g218" In;      // pinName = g218; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g22" In;      // pinName = g22; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g224" In;      // pinName = g224; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g23" In;      // pinName = g23; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g230" In;      // pinName = g230; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g236" In;      // pinName = g236; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g24" In;      // pinName = g24; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g242" In;      // pinName = g242; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g248" In;      // pinName = g248; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g25" In;      // pinName = g25; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g254" In;      // pinName = g254; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g260" In;      // pinName = g260; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g266" In;      // pinName = g266; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g269" In;      // pinName = g269; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g276" In;      // pinName = g276; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g277" In;      // pinName = g277; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g278" In;      // pinName = g278; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g279" In;      // pinName = g279; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g28" In;      // pinName = g28; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g280" In;      // pinName = g280; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g281" In;      // pinName = g281; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g282" In;      // pinName = g282; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g283" In;      // pinName = g283; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g284" In;      // pinName = g284; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g285" In;      // pinName = g285; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g286" In;      // pinName = g286; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g287" In;      // pinName = g287; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g288" In;      // pinName = g288; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g289" In;      // pinName = g289; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g29" In;      // pinName = g29; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g290" In;      // pinName = g290; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g291" In;      // pinName = g291; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g292" In;      // pinName = g292; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g293" In;      // pinName = g293; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g297" In;      // pinName = g297; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g3" In;      // pinName = g3; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g301" In;      // pinName = g301; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g306" In;      // pinName = g306; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g310" In;      // pinName = g310; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g314" In;      // pinName = g314; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g319" In;      // pinName = g319; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g32" In;      // pinName = g32; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g323" In;      // pinName = g323; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g326" In;      // pinName = g326; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g327" In;      // pinName = g327; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g328" In;      // pinName = g328; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g33" In;      // pinName = g33; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g331" In;      // pinName = g331; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g332" In;      // pinName = g332; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g336" In;      // pinName = g336; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g337" In;      // pinName = g337; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g338" In;      // pinName = g338; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g341" In;      // pinName = g341; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g345" In;      // pinName = g345; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g349" In;      // pinName = g349; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g353" In;      // pinName = g353; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g357" In;      // pinName = g357; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g36" In;      // pinName = g36; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g361" In;      // pinName = g361; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g366" In;      // pinName = g366; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g37" In;      // pinName = g37; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g370" In;      // pinName = g370; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g374" In;      // pinName = g374; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g378" In;      // pinName = g378; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g38" In;      // pinName = g38; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g382" In;      // pinName = g382; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g386" In;      // pinName = g386; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g39" In;      // pinName = g39; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g390" In;      // pinName = g390; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g394" In;      // pinName = g394; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g398" In;      // pinName = g398; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g40" In;      // pinName = g40; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g402" In;      // pinName = g402; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g406" In;      // pinName = g406; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g41" In;      // pinName = g41; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g410" In;      // pinName = g410; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g414" In;      // pinName = g414; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g418" In;      // pinName = g418; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g42" In;      // pinName = g42; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g422" In;      // pinName = g422; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g426" In;      // pinName = g426; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g43" In;      // pinName = g43; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g430" In;      // pinName = g430; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g434" In;      // pinName = g434; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g437" In;      // pinName = g437; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g44" In;      // pinName = g44; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g441" In;      // pinName = g441; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g445" In;      // pinName = g445; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g449" In;      // pinName = g449; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g45" In;      // pinName = g45; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g453" In;      // pinName = g453; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g457" In;      // pinName = g457; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g46" In;      // pinName = g46; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g461" In;      // pinName = g461; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g465" In;      // pinName = g465; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g47" In;      // pinName = g47; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g471" In;      // pinName = g471; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g478" In;      // pinName = g478; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g48" In;      // pinName = g48; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g485" In;      // pinName = g485; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g486" In;      // pinName = g486; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g489" In;      // pinName = g489; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g49" In;      // pinName = g49; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g492" In;      // pinName = g492; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g496" In;      // pinName = g496; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g500" In;      // pinName = g500; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g504" In;      // pinName = g504; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g508" In;      // pinName = g508; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g512" In;      // pinName = g512; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g516" In;      // pinName = g516; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g520" In;      // pinName = g520; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g524" In;      // pinName = g524; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g528" In;      // pinName = g528; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g532" In;      // pinName = g532; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g536" In;      // pinName = g536; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g54" In;      // pinName = g54; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g541" In;      // pinName = g541; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g545" In;      // pinName = g545; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g548" In;      // pinName = g548; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g551" In;      // pinName = g551; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g554" In;      // pinName = g554; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g557" In;      // pinName = g557; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g558" In;      // pinName = g558; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g559" In;      // pinName = g559; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g560" In;      // pinName = g560; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g561" In;      // pinName = g561; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g562" In;      // pinName = g562; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g563" In;      // pinName = g563; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g564" In;      // pinName = g564; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g567" In;      // pinName = g567; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g571" In;      // pinName = g571; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g574" In;      // pinName = g574; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g578" In;      // pinName = g578; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g582" In;      // pinName = g582; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g586" In;      // pinName = g586; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g59" In;      // pinName = g59; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g590" In;      // pinName = g590; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g594" In;      // pinName = g594; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g598" In;      // pinName = g598; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g6" In;      // pinName = g6; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g602" In;      // pinName = g602; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g606" In;      // pinName = g606; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g610" In;      // pinName = g610; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g613" In;      // pinName = g613; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g616" In;      // pinName = g616; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g619" In;      // pinName = g619; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g622" In;      // pinName = g622; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g625" In;      // pinName = g625; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g628" In;      // pinName = g628; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g631" In;      // pinName = g631; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g634" In;      // pinName = g634; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g638" In;      // pinName = g638; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g639" In;      // pinName = g639; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g64" In;      // pinName = g64; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g642" In;      // pinName = g642; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g646" In;      // pinName = g646; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g650" In;      // pinName = g650; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g654" In;      // pinName = g654; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g658" In;      // pinName = g658; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g662" In;      // pinName = g662; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g663" In;      // pinName = g663; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g664" In;      // pinName = g664; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g665" In;      // pinName = g665; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g666" In;      // pinName = g666; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g667" In;      // pinName = g667; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g668" In;      // pinName = g668; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g669" In;      // pinName = g669; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g672" In;      // pinName = g672; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g675" In;      // pinName = g675; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g676" In;      // pinName = g676; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g677" In;      // pinName = g677; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g678" In;      // pinName = g678; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g679" In;      // pinName = g679; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g680" In;      // pinName = g680; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g681" In;      // pinName = g681; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g682" In;      // pinName = g682; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g683" In;      // pinName = g683; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g684" In;      // pinName = g684; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g685" In;      // pinName = g685; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g686" In;      // pinName = g686; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g687" In;      // pinName = g687; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g688" In;      // pinName = g688; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g689" In;      // pinName = g689; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g69" In;      // pinName = g69; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g690" In;      // pinName = g690; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g691" In;      // pinName = g691; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g692" In;      // pinName = g692; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g693" In;      // pinName = g693; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g694" In;      // pinName = g694; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g695" In;      // pinName = g695; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g696" In;      // pinName = g696; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g697" In;      // pinName = g697; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g698" In;      // pinName = g698; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g699" In;      // pinName = g699; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g7" In;      // pinName = g7; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g702" In;      // pinName = g702; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g705" In;      // pinName = g705; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g74" In;      // pinName = g74; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g79" In;      // pinName = g79; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g84" In;      // pinName = g84; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g89" In;      // pinName = g89; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g94" In;      // pinName = g94; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g98" In;      // pinName = g98; testOffset = 0.000000;  scanOffset = 0.000000;  
+    "g1288" Out;      // pinName = g1288; 
+    "g1289" Out;      // pinName = g1289; 
+    "g1290" Out;      // pinName = g1290; 
+    "g1291" Out;      // pinName = g1291; 
+    "g1292" Out;      // pinName = g1292; 
+    "g1293" Out;      // pinName = g1293; 
+    "g1294" Out;      // pinName = g1294; 
+    "g1831" Out;      // pinName = g1831; 
+    "g2584" Out;      // pinName = g2584; 
+    "g2585" Out;      // pinName = g2585; 
+    "g2586" Out;      // pinName = g2586; 
+    "g2587" Out;      // pinName = g2587; 
+    "g3222" Out;      // pinName = g3222; 
+    "g3224" Out;      // pinName = g3224; 
+    "g3225" Out;      // pinName = g3225; 
+    "g3226" Out;      // pinName = g3226; 
+    "g3227" Out;      // pinName = g3227; 
+    "g3228" Out;      // pinName = g3228; 
+    "g3229" Out;      // pinName = g3229; 
+    "g3230" Out;      // pinName = g3230; 
+    "g3231" Out;      // pinName = g3231; 
+    "g3232" Out;      // pinName = g3232; 
+    "g3233" Out;      // pinName = g3233; 
+    "g3234" Out;      // pinName = g3234; 
+    "g3235" Out;      // pinName = g3235; 
+    "g3236" Out;      // pinName = g3236; 
+    "g3237" Out;      // pinName = g3237; 
+    "g3238" Out;      // pinName = g3238; 
+    "g3239" Out;      // pinName = g3239; 
+    "g3240" Out;      // pinName = g3240; 
+    "g3241" Out;      // pinName = g3241; 
+    "g3600" Out;      // pinName = g3600; 
+    "g4098" Out;      // pinName = g4098; 
+    "g4099" Out;      // pinName = g4099; 
+    "g4100" Out;      // pinName = g4100; 
+    "g4101" Out;      // pinName = g4101; 
+    "g4102" Out;      // pinName = g4102; 
+    "g4103" Out;      // pinName = g4103; 
+    "g4104" Out;      // pinName = g4104; 
+    "g4105" Out;      // pinName = g4105; 
+    "g4106" Out;      // pinName = g4106; 
+    "g4107" Out;      // pinName = g4107; 
+    "g4108" Out;      // pinName = g4108; 
+    "g4109" Out;      // pinName = g4109; 
+    "g4110" Out;      // pinName = g4110; 
+    "g4112" Out;      // pinName = g4112; 
+    "g4113" Out;      // pinName = g4113; 
+    "g4114" Out;      // pinName = g4114; 
+    "g4115" Out;      // pinName = g4115; 
+    "g4116" Out;      // pinName = g4116; 
+    "g4117" Out;      // pinName = g4117; 
+    "g4118" Out;      // pinName = g4118; 
+    "g4119" Out;      // pinName = g4119; 
+    "g4120" Out;      // pinName = g4120; 
+    "g4121" Out;      // pinName = g4121; 
+    "g4122" Out;      // pinName = g4122; 
+    "g4123" Out;      // pinName = g4123; 
+    "g4124" Out;      // pinName = g4124; 
+    "g4125" Out;      // pinName = g4125; 
+    "g4126" Out;      // pinName = g4126; 
+    "g4127" Out;      // pinName = g4127; 
+    "g4128" Out;      // pinName = g4128; 
+    "g4129" Out;      // pinName = g4129; 
+    "g4130" Out;      // pinName = g4130; 
+    "g4131" Out;      // pinName = g4131; 
+    "g4132" Out;      // pinName = g4132; 
+    "g4133" Out;      // pinName = g4133; 
+    "g4134" Out;      // pinName = g4134; 
+    "g4135" Out;      // pinName = g4135; 
+    "g4136" Out;      // pinName = g4136; 
+    "g4137" Out;      // pinName = g4137; 
+    "g4138" Out;      // pinName = g4138; 
+    "g4139" Out;      // pinName = g4139; 
+    "g4140" Out;      // pinName = g4140; 
+    "g4141" Out;      // pinName = g4141; 
+    "g4142" Out;      // pinName = g4142; 
+    "g4143" Out;      // pinName = g4143; 
+    "g4144" Out;      // pinName = g4144; 
+    "g4145" Out;      // pinName = g4145; 
+    "g4146" Out;      // pinName = g4146; 
+    "g4147" Out;      // pinName = g4147; 
+    "g4148" Out;      // pinName = g4148; 
+    "g4149" Out;      // pinName = g4149; 
+    "g4150" Out;      // pinName = g4150; 
+    "g4307" Out;      // pinName = g4307; 
+    "g4321" Out;      // pinName = g4321; 
+    "g4422" Out;      // pinName = g4422; 
+    "g4423" Out;      // pinName = g4423; 
+    "g4424" Out;      // pinName = g4424; 
+    "g4425" Out;      // pinName = g4425; 
+    "g4426" Out;      // pinName = g4426; 
+    "g4657" Out;      // pinName = g4657; 
+    "g4658" Out;      // pinName = g4658; 
+    "g4659" Out;      // pinName = g4659; 
+    "g4809" Out;      // pinName = g4809; 
+    "g4839" Out;      // pinName = g4839; 
+    "g4840" Out;      // pinName = g4840; 
+    "g4841" Out;      // pinName = g4841; 
+    "g4842" Out;      // pinName = g4842; 
+    "g4843" Out;      // pinName = g4843; 
+    "g4844" Out;      // pinName = g4844; 
+    "g4845" Out;      // pinName = g4845; 
+    "g4846" Out;      // pinName = g4846; 
+    "g4847" Out;      // pinName = g4847; 
+    "g4848" Out;      // pinName = g4848; 
+    "g4849" Out;      // pinName = g4849; 
+    "g4850" Out;      // pinName = g4850; 
+    "g4851" Out;      // pinName = g4851; 
+    "g4852" Out;      // pinName = g4852; 
+    "g4853" Out;      // pinName = g4853; 
+    "g4854" Out;      // pinName = g4854; 
+    "g4855" Out;      // pinName = g4855; 
+    "g4856" Out;      // pinName = g4856; 
+    "g4857" Out;      // pinName = g4857; 
+    "g4858" Out;      // pinName = g4858; 
+    "g5137" Out;      // pinName = g5137; 
+    "g5138" Out;      // pinName = g5138; 
+    "g5139" Out;      // pinName = g5139; 
+    "g5140" Out;      // pinName = g5140; 
+    "g5141" Out;      // pinName = g5141; 
+    "g5147" Out;      // pinName = g5147; 
+    "g5148" Out;      // pinName = g5148; 
+    "g5328" Out;      // pinName = g5328; 
+    "g5329" Out;      // pinName = g5329; 
+    "g5330" Out;      // pinName = g5330; 
+    "g5468" Out;      // pinName = g5468; 
+    "g5469" Out;      // pinName = g5469; 
+    "g5470" Out;      // pinName = g5470; 
+    "g5471" Out;      // pinName = g5471; 
+    "g5472" Out;      // pinName = g5472; 
+    "g5473" Out;      // pinName = g5473; 
+    "g5474" Out;      // pinName = g5474; 
+    "g5475" Out;      // pinName = g5475; 
+    "g5476" Out;      // pinName = g5476; 
+    "g5477" Out;      // pinName = g5477; 
+    "g5478" Out;      // pinName = g5478; 
+    "g5479" Out;      // pinName = g5479; 
+    "g5480" Out;      // pinName = g5480; 
+    "g5489" Out;      // pinName = g5489; 
+    "g5490" Out;      // pinName = g5490; 
+    "g5491" Out;      // pinName = g5491; 
+    "g5580" Out;      // pinName = g5580; 
+    "g5581" Out;      // pinName = g5581; 
+    "g5582" Out;      // pinName = g5582; 
+    "g5692" Out;      // pinName = g5692; 
+    "g5693" Out;      // pinName = g5693; 
+    "g5694" Out;      // pinName = g5694; 
+    "g5695" Out;      // pinName = g5695; 
+    "g5696" Out;      // pinName = g5696; 
+    "g5697" Out;      // pinName = g5697; 
+    "g5698" Out;      // pinName = g5698; 
+    "g5699" Out;      // pinName = g5699; 
+    "g5700" Out;      // pinName = g5700; 
+    "g5874" Out;      // pinName = g5874; 
+    "g5875" Out;      // pinName = g5875; 
+    "g5876" Out;      // pinName = g5876; 
+    "g5877" Out;      // pinName = g5877; 
+    "g5878" Out;      // pinName = g5878; 
+    "g6100" Out;      // pinName = g6100; 
+    "g6101" Out;      // pinName = g6101; 
+    "g6102" Out;      // pinName = g6102; 
+    "g6103" Out;      // pinName = g6103; 
+    "g6104" Out;      // pinName = g6104; 
+    "g6105" Out;      // pinName = g6105; 
+    "g6106" Out;      // pinName = g6106; 
+    "g6107" Out;      // pinName = g6107; 
+    "g6277" Out;      // pinName = g6277; 
+    "g6278" Out;      // pinName = g6278; 
+    "g6282" Out;      // pinName = g6282; 
+    "g6284" Out;      // pinName = g6284; 
+    "g6360" Out;      // pinName = g6360; 
+    "g6362" Out;      // pinName = g6362; 
+    "g6364" Out;      // pinName = g6364; 
+    "g6366" Out;      // pinName = g6366; 
+    "g6368" Out;      // pinName = g6368; 
+    "g6370" Out;      // pinName = g6370; 
+    "g6372" Out;      // pinName = g6372; 
+    "g6374" Out;      // pinName = g6374; 
+    "g6401" Out;      // pinName = g6401; 
+    "g6402" Out;      // pinName = g6402; 
+    "g6403" Out;      // pinName = g6403; 
+    "g6404" Out;      // pinName = g6404; 
+    "g6405" Out;      // pinName = g6405; 
+    "g6406" Out;      // pinName = g6406; 
+    "g6407" Out;      // pinName = g6407; 
+    "g6497" Out;      // pinName = g6497; 
+    "g6498" Out;      // pinName = g6498; 
+    "g6499" Out;      // pinName = g6499; 
+    "g6500" Out;      // pinName = g6500; 
+    "g6501" Out;      // pinName = g6501; 
+    "g6502" Out;      // pinName = g6502; 
+    "g6503" Out;      // pinName = g6503; 
+    "g6504" Out;      // pinName = g6504; 
+    "g6505" Out;      // pinName = g6505; 
+    "g6506" Out;      // pinName = g6506; 
+    "g6507" Out;      // pinName = g6507; 
+    "g6508" Out;      // pinName = g6508; 
+    "g6509" Out;      // pinName = g6509; 
+    "g6510" Out;      // pinName = g6510; 
+    "g6511" Out;      // pinName = g6511; 
+    "g6512" Out;      // pinName = g6512; 
+    "g6582" Out;      // pinName = g6582; 
+    "g6583" Out;      // pinName = g6583; 
+    "g6584" Out;      // pinName = g6584; 
+    "g6585" Out;      // pinName = g6585; 
+    "g6586" Out;      // pinName = g6586; 
+    "g6587" Out;      // pinName = g6587; 
+    "g6588" Out;      // pinName = g6588; 
+    "g6589" Out;      // pinName = g6589; 
+    "g6590" Out;      // pinName = g6590; 
+    "g6591" Out;      // pinName = g6591; 
+    "g6592" Out;      // pinName = g6592; 
+    "g6593" Out;      // pinName = g6593; 
+    "g6594" Out;      // pinName = g6594; 
+    "g6595" Out;      // pinName = g6595; 
+    "g6596" Out;      // pinName = g6596; 
+    "g6597" Out;      // pinName = g6597; 
+    "g6598" Out;      // pinName = g6598; 
+    "g6599" Out;      // pinName = g6599; 
+    "g6600" Out;      // pinName = g6600; 
+    "g6601" Out;      // pinName = g6601; 
+    "g6602" Out;      // pinName = g6602; 
+    "g6720" Out;      // pinName = g6720; 
+    "g6721" Out;      // pinName = g6721; 
+    "g6722" Out;      // pinName = g6722; 
+    "g6723" Out;      // pinName = g6723; 
+    "g6724" Out;      // pinName = g6724; 
+    "g6725" Out;      // pinName = g6725; 
+    "g6726" Out;      // pinName = g6726; 
+    "g6727" Out;      // pinName = g6727; 
+    "g6728" Out;      // pinName = g6728; 
+    "g6729" Out;      // pinName = g6729; 
+    "g6744" Out;      // pinName = g6744; 
+    "g6745" Out;      // pinName = g6745; 
+    "g6800" Out;      // pinName = g6800; 
+    "g6801" Out;      // pinName = g6801; 
+    "g6823" Out;      // pinName = g6823; 
+    "g6824" Out;      // pinName = g6824; 
+    "g6825" Out;      // pinName = g6825; 
+    "g6826" Out;      // pinName = g6826; 
+    "g6827" Out;      // pinName = g6827; 
+    "g6839" Out;      // pinName = g6839; 
+    "g6840" Out;      // pinName = g6840; 
+    "g6841" Out;      // pinName = g6841; 
+    "g6842" Out;      // pinName = g6842; 
+    "g6853" Out;      // pinName = g6853; 
+    "g6854" Out;      // pinName = g6854; 
+    "g6925" Out;      // pinName = g6925; 
+    "g6940" Out;      // pinName = g6940; 
+    "g6941" Out;      // pinName = g6941; 
+  } 
+
+//***************************************************************************//
+//                           DEFINE SIGNAL GROUPS                            //
+//***************************************************************************//
+
+  SignalGroups { 
+
+    "ALLPIs" = '"g1"+"g10"+"g102"+"g107"+"g11"+"g111"+"g114"+"g117"+"g118"
+               +"g119"+"g122"+"g123"+"g127"+"g128"+"g131"+"g135"+"g139"
+               +"g14"+"g143"+"g148"+"g15"+"g152"+"g157"+"g161"+"g166"+"g170"
+               +"g175"+"g179"+"g18"+"g184"+"g188"+"g19"+"g193"+"g197"+"g2"
+               +"g204"+"g205"+"g206"+"g207"+"g208"+"g209"+"g210"+"g211"
+               +"g212"+"g218"+"g22"+"g224"+"g23"+"g230"+"g236"+"g24"+"g242"
+               +"g248"+"g25"+"g254"+"g260"+"g266"+"g269"+"g276"+"g277"
+               +"g278"+"g279"+"g28"+"g280"+"g281"+"g282"+"g283"+"g284"
+               +"g285"+"g286"+"g287"+"g288"+"g289"+"g29"+"g290"+"g291"
+               +"g292"+"g293"+"g297"+"g3"+"g301"+"g306"+"g310"+"g314"+"g319"
+               +"g32"+"g323"+"g326"+"g327"+"g328"+"g33"+"g331"+"g332"+"g336"
+               +"g337"+"g338"+"g341"+"g345"+"g349"+"g353"+"g357"+"g36"
+               +"g361"+"g366"+"g37"+"g370"+"g374"+"g378"+"g38"+"g382"+"g386"
+               +"g39"+"g390"+"g394"+"g398"+"g40"+"g402"+"g406"+"g41"+"g410"
+               +"g414"+"g418"+"g42"+"g422"+"g426"+"g43"+"g430"+"g434"+"g437"
+               +"g44"+"g441"+"g445"+"g449"+"g45"+"g453"+"g457"+"g46"+"g461"
+               +"g465"+"g47"+"g471"+"g478"+"g48"+"g485"+"g486"+"g489"+"g49"
+               +"g492"+"g496"+"g500"+"g504"+"g508"+"g512"+"g516"+"g520"
+               +"g524"+"g528"+"g532"+"g536"+"g54"+"g541"+"g545"+"g548"
+               +"g551"+"g554"+"g557"+"g558"+"g559"+"g560"+"g561"+"g562"
+               +"g563"+"g564"+"g567"+"g571"+"g574"+"g578"+"g582"+"g586"
+               +"g59"+"g590"+"g594"+"g598"+"g6"+"g602"+"g606"+"g610"+"g613"
+               +"g616"+"g619"+"g622"+"g625"+"g628"+"g631"+"g634"+"g638"
+               +"g639"+"g64"+"g642"+"g646"+"g650"+"g654"+"g658"+"g662"
+               +"g663"+"g664"+"g665"+"g666"+"g667"+"g668"+"g669"+"g672"
+               +"g675"+"g676"+"g677"+"g678"+"g679"+"g680"+"g681"+"g682"
+               +"g683"+"g684"+"g685"+"g686"+"g687"+"g688"+"g689"+"g69"
+               +"g690"+"g691"+"g692"+"g693"+"g694"+"g695"+"g696"+"g697"
+               +"g698"+"g699"+"g7"+"g702"+"g705"+"g74"+"g79"+"g84"+"g89"
+               +"g94"+"g98"'; 
+
+    "ALLPOs" = '"g1288"+"g1289"+"g1290"+"g1291"+"g1292"+"g1293"+"g1294"
+               +"g1831"+"g2584"+"g2585"+"g2586"+"g2587"+"g3222"+"g3224"
+               +"g3225"+"g3226"+"g3227"+"g3228"+"g3229"+"g3230"+"g3231"
+               +"g3232"+"g3233"+"g3234"+"g3235"+"g3236"+"g3237"+"g3238"
+               +"g3239"+"g3240"+"g3241"+"g3600"+"g4098"+"g4099"+"g4100"
+               +"g4101"+"g4102"+"g4103"+"g4104"+"g4105"+"g4106"+"g4107"
+               +"g4108"+"g4109"+"g4110"+"g4112"+"g4113"+"g4114"+"g4115"
+               +"g4116"+"g4117"+"g4118"+"g4119"+"g4120"+"g4121"+"g4122"
+               +"g4123"+"g4124"+"g4125"+"g4126"+"g4127"+"g4128"+"g4129"
+               +"g4130"+"g4131"+"g4132"+"g4133"+"g4134"+"g4135"+"g4136"
+               +"g4137"+"g4138"+"g4139"+"g4140"+"g4141"+"g4142"+"g4143"
+               +"g4144"+"g4145"+"g4146"+"g4147"+"g4148"+"g4149"+"g4150"
+               +"g4307"+"g4321"+"g4422"+"g4423"+"g4424"+"g4425"+"g4426"
+               +"g4657"+"g4658"+"g4659"+"g4809"+"g4839"+"g4840"+"g4841"
+               +"g4842"+"g4843"+"g4844"+"g4845"+"g4846"+"g4847"+"g4848"
+               +"g4849"+"g4850"+"g4851"+"g4852"+"g4853"+"g4854"+"g4855"
+               +"g4856"+"g4857"+"g4858"+"g5137"+"g5138"+"g5139"+"g5140"
+               +"g5141"+"g5147"+"g5148"+"g5328"+"g5329"+"g5330"+"g5468"
+               +"g5469"+"g5470"+"g5471"+"g5472"+"g5473"+"g5474"+"g5475"
+               +"g5476"+"g5477"+"g5478"+"g5479"+"g5480"+"g5489"+"g5490"
+               +"g5491"+"g5580"+"g5581"+"g5582"+"g5692"+"g5693"+"g5694"
+               +"g5695"+"g5696"+"g5697"+"g5698"+"g5699"+"g5700"+"g5874"
+               +"g5875"+"g5876"+"g5877"+"g5878"+"g6100"+"g6101"+"g6102"
+               +"g6103"+"g6104"+"g6105"+"g6106"+"g6107"+"g6277"+"g6278"
+               +"g6282"+"g6284"+"g6360"+"g6362"+"g6364"+"g6366"+"g6368"
+               +"g6370"+"g6372"+"g6374"+"g6401"+"g6402"+"g6403"+"g6404"
+               +"g6405"+"g6406"+"g6407"+"g6497"+"g6498"+"g6499"+"g6500"
+               +"g6501"+"g6502"+"g6503"+"g6504"+"g6505"+"g6506"+"g6507"
+               +"g6508"+"g6509"+"g6510"+"g6511"+"g6512"+"g6582"+"g6583"
+               +"g6584"+"g6585"+"g6586"+"g6587"+"g6588"+"g6589"+"g6590"
+               +"g6591"+"g6592"+"g6593"+"g6594"+"g6595"+"g6596"+"g6597"
+               +"g6598"+"g6599"+"g6600"+"g6601"+"g6602"+"g6720"+"g6721"
+               +"g6722"+"g6723"+"g6724"+"g6725"+"g6726"+"g6727"+"g6728"
+               +"g6729"+"g6744"+"g6745"+"g6800"+"g6801"+"g6823"+"g6824"
+               +"g6825"+"g6826"+"g6827"+"g6839"+"g6840"+"g6841"+"g6842"
+               +"g6853"+"g6854"+"g6925"+"g6940"+"g6941"'; 
+
+  } 
+
+//***************************************************************************//
+//                               DEFINE MACROS                               //
+//***************************************************************************//
+
+  MacroDefs { 
+
+    "TEST" { WaveformTable "test_cycle"; 
+      Vector { 
+        "ALLPOs" = %; 
+        "ALLPIs" = %; } } 
+} 

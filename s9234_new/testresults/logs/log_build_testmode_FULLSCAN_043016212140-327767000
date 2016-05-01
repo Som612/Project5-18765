@@ -1,0 +1,115 @@
+
+INFO (TDA-005): Command Line Invocation: 
+            build_testmode stepid=pd__build_testmode_043016212140-327767000 testmode=FULLSCAN workdir=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/  [end TDA_005]
+
+***********************************************************************
+Encounter(R) Test and Diagnostics 15.11 Jun 25, 2015 (linux26_64 ET151)
+ 
+Licensed Materials - Property of Cadence Design Systems, Inc. 
+ 
+Copyright (C) 2002-2015 Cadence Design Systems Inc. All Rights Reserved. 
+Cadence and the Cadence logo are registered trademarks. All others are 
+properties of their respective holders. 
+ 
+Copyright (C) 1994-2002 IBM Corporation. All rights reserved. 
+  IBM is a Trademark of International Business Machines Corporation. 
+Copyright (C) 2001-2003 The Trustees of Indiana University. All rights reserved. 
+Copyright (C) 1998-2001 University of Notre Dame. All rights reserved. 
+Copyright (C) 1994-1998 The Ohio State University. All rights reserved. 
+Perl Copyright 1987-2002, Larry Wall 
+
+
+***********************************************************************
+
+INFO (TDA-007): Job Information:
+            Date Started: Saturday Apr 30 21:21:40 2016  EDT
+            Host machine is helios.andrew.local.cmu.edu, x86_64 running Linux 3.10.0-327.13.1.el7.x86_64.
+            This job is process number 11868.
+[end TDA_007]
+
+INFO (TDA-009): Keywords/Values information.
+            (keywords marked with '*' have program generated values,
+             keywords marked with '+' were specified to default.)
+
+            WORKDIR=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/
+            TESTMODE=FULLSCAN
+
+          * ASSIGNFILE=
+            logfile=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//testresults/logs/log_build_testmode_FULLSCAN_043016212140-327767000
+            stepid=pd__build_testmode
+[end TDA_009]
+MODEDEFPATH set to:  /afs/ece.cmu.edu/support/cds/share/image/usr/cds/et-15.11.000/tools.lnx86/tb/defaults/rules/modedef 
+TDRPATH set to: /afs/ece.cmu.edu/support/cds/share/image/usr/cds/et-15.11.000/tools.lnx86/tb/defaults/rules/tdr 
+
+Encounter Test Build Test Mode(s) beginning...
+
+   TDR NAME      =  dummy.tdr 
+
+   SCAN_TYPE     =  GSD 
+   BOUNDARY      =  NONE 
+   IN            =  PI 
+   OUT           =  PO 
+
+INFO (TTM-391): A default modeinit sequence will be generated.   [end TTM_391] 
+INFO (THM-814): Testmode contains 100.00% active logic,  0.00% inactive logic and  0.00% constraint logic.   [end THM_814] 
+
+There are no PPIs for Test Mode:  FULLSCAN
+
+Information for Test Mode:  FULLSCAN
+--------------------------
+
+         Scan Type = GSD
+
+
+ Latch Summary for Test Mode:  FULLSCAN
+ Latch Type                #Active   #Inactive       Total
+ ---------------------   ---------   ---------   ---------
+ Test Constraint (TC)            0           0           0 
+ Scan Enable     (SE)            0           0           0 
+ Fixed Value     (FV)            0           0           0 
+ Floating                        0           0           0 
+ Finite State    (FSM)           0           0           0 
+
+INFO (TTM-800): build_testmode has created mode FULLSCAN. [end TTM_800] 
+
+Test Function Pin Information for Test Mode:  FULLSCAN
+-------------------------------------------
+
+          0  SC    (System  Clock)             Pins
+          0  AC    (A Shift Clock)             Pins
+          0  BC    (B Shift Clock)             Pins
+          0  PC    (P Shift Clock)             Pins
+          0  EC    (E Shift Clock)             Pins
+
+          0  OSC   (Oscillator)                Pins
+
+          0  TI    (Test Inhibit)              Pins
+          0  SE    (Scan Enable)               Pins
+          0  CI    (Clock Isolation)           Pins
+          0  OI    (Output Inhibit)            Pins
+
+          0  SI    (Scan Input)                Pins
+          0  SO    (Scan Output)               Pins
+
+
+            Cumulative Time in hours:minutes:seconds:
+                   CPU Time =   0:00:00.18
+               Elapsed Time =   0:00:01.02
+
+
+
+
+*******************************************************************************
+*                      Message Summary                                        *
+*******************************************************************************
+ Count  Number             First Instance of Message Text
+------- ------             ------------------------------
+
+  INFO Messages...
+      1 INFO (THM-814): Testmode contains 100.00% active logic,  0.00% inactive logic and  0.00% constraint logic.    
+      1 INFO (TTM-391): A default modeinit sequence will be generated.    
+      1 INFO (TTM-800): build_testmode has created mode FULLSCAN.  
+
+ For a detailed explanation of a message and a suggested user response execute 'msgHelp <message id>'.  For example: msgHelp TDA-009
+
+*******************************************************************************

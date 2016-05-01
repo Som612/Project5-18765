@@ -1,0 +1,135 @@
+
+INFO (TDA-005): Command Line Invocation: 
+            build_faultmodel stepid=pd__build_faultmodel_043016212155-933700000 includeignore=no includedynamic=no precollapsed=no workdir=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/ ignoreblackbox=yes cellfaults=no  [end TDA_005]
+
+***********************************************************************
+Encounter(R) Test and Diagnostics 15.11 Jun 25, 2015 (linux26_64 ET151)
+ 
+Licensed Materials - Property of Cadence Design Systems, Inc. 
+ 
+Copyright (C) 2002-2015 Cadence Design Systems Inc. All Rights Reserved. 
+Cadence and the Cadence logo are registered trademarks. All others are 
+properties of their respective holders. 
+ 
+Copyright (C) 1994-2002 IBM Corporation. All rights reserved. 
+  IBM is a Trademark of International Business Machines Corporation. 
+Copyright (C) 2001-2003 The Trustees of Indiana University. All rights reserved. 
+Copyright (C) 1998-2001 University of Notre Dame. All rights reserved. 
+Copyright (C) 1994-1998 The Ohio State University. All rights reserved. 
+Perl Copyright 1987-2002, Larry Wall 
+
+
+***********************************************************************
+
+INFO (TDA-007): Job Information:
+            Date Started: Saturday Apr 30 21:21:56 2016  EDT
+            Host machine is helios.andrew.local.cmu.edu, x86_64 running Linux 3.10.0-327.13.1.el7.x86_64.
+            This job is process number 11892.
+[end TDA_007]
+
+INFO (TDA-009): Keywords/Values information.
+            (keywords marked with '*' have program generated values,
+             keywords marked with '+' were specified to default.)
+
+            WORKDIR=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5/
+
+            logfile=/afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//testresults/logs/log_build_faultmodel_043016212155-933700000
+            stepid=pd__build_faultmodel
+            includedynamic=no
+          + cellfaults=no
+          + ignoreblackbox=yes
+          + precollapsed=no
+          + includeignore=no
+[end TDA_009]
+INFO (TFM-099): Build Fault Model started.  [end TFM_099] 
+INFO (TFM-102): Creating faultModel file /afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//tbdata/faultModel.  [end TFM_102] 
+
+Global Ignored Static Fault Count            0
+Global Ignored Dynamic Fault Count           0
+
+
+                            Global Statistics
+
+                 -- ATCov --   ------------- Global Faults ----------------------
+                   Global      Total     Tested   Possibly  Redundant   Untested
+
+Total Static         0.00      16589          0          0          0      16589
+Collapsed Static     0.00       7107          0          0          0       7107
+PI Static            0.00        494          0          0          0        494
+PO Static            0.00        500          0          0          0        500
+
+Total Dynamic                      0
+
+Parametric        
+
+IDDq                 0.00      16589          0                            16589
+
+
+
+INFO (TFM-103): Creating faultStatus file /afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//tbdata/faultStatus.  [end TFM_103] 
+
+                           Testmode Statistics: FULLSCAN
+
+                   ---- ATCov ----   ---------------- Testmode Faults --------------------  ------------------ Global Faults --------------------
+                 Testmode Global      Total     Tested   Possibly  Redundant   Untested      Total     Tested   Possibly  Redundant   Untested
+
+Total Static         0.00   0.00      16589          0          0          0      16589      16589          0          0          0      16589
+Collapsed Static     0.00   0.00       7107          0          0          0       7107       7107          0          0          0       7107
+PI Static            0.00   0.00        494          0          0          0        494        494          0          0          0        494
+PO Static            0.00   0.00        500          0          0          0        500        500          0          0          0        500
+
+Total Dynamic                             0
+
+Parametric        
+
+IDDq                 0.00   0.00      16589          0                            16589      16589          0                            16589
+
+Path                 0.00   0.00          0          0                                0          0          0                                0
+
+
+INFO (TFM-704): Maximum Global Test Coverage Statistics: 
+
+                  %Active    #Faults    #Active  #Inactive
+Total Static       100.00      16589      16589          0
+Collapsed Static   100.00       7107       7107          0
+PI Static          100.00        494        494          0
+PO Static          100.00        500        500          0
+
+Total Dynamic                      0
+
+Parametric        
+
+There are 1 test mode(s) defined:
+      FULLSCAN
+
+[end TFM_704]
+INFO (TFM-109): Build Fault Model has completed with highest level severity message of INFO.  [end TFM_109] 
+
+INFO (TDA-001): Maximum Memory used during the run and Cumulative Time in hours:minutes:seconds:
+
+                  Total Memory =           10,579,072  bytes
+
+                      CPU Time =    0:00:00.02
+                  Elapsed Time =    0:00:00.21                    [end TDA_001]
+
+     Date Ended:  Saturday Apr 30 21:21:56 2016  EDT
+
+
+
+
+*******************************************************************************
+*                      Message Summary                                        *
+*******************************************************************************
+ Count  Number             First Instance of Message Text
+------- ------             ------------------------------
+
+  INFO Messages...
+      1 INFO (TFM-099): Build Fault Model started.   
+      1 INFO (TFM-102): Creating faultModel file /afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//tbdata/faultModel.   
+      1 INFO (TFM-103): Creating faultStatus file /afs/ece.cmu.edu/usr/sshyamas/Private/ece765/project5//tbdata/faultStatus.   
+      1 INFO (TFM-109): Build Fault Model has completed with highest level severity message of INFO.   
+      1 INFO (TFM-704): Maximum Global Test Coverage Statistics: 
+
+ For a detailed explanation of a message and a suggested user response execute 'msgHelp <message id>'.  For example: msgHelp TDA-009
+
+*******************************************************************************
